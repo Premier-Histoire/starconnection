@@ -212,7 +212,7 @@ footer {
 
 .background {
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: url(../img/background.jpg);
@@ -701,4 +701,41 @@ footer {
 .empty-row {
     height: 0.5%;
     /* 空行の高さを指定 */
+}
+
+.download {
+    width: 100%;
+    height: 100%;
+}
+
+.btn2 {
+    position: absolute;
+    background-color: #00BFA6;
+    padding: 14px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px dashed #00BFA6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+}
+
+.btn2 span:last-child {
+    display: none;
+}
+
+.btn2:hover {
+    transition: .4s;
+    border: 2px dashed #00BFA6;
+    background-color: #fff;
+    color: #00BFA6;
+}
+
+.btn2:active {
+    background-color: #87dbd0;
 }
