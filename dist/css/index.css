@@ -292,6 +292,51 @@ footer {
     font-size: 20px;
 }
 
+.character_rare {
+    position: absolute;
+    background-size: 10px 10px;
+    width: 134px;
+    height: 30px;
+    text-align: center;
+}
+
+.skill_data {
+    position: absolute;
+    border-radius: 10px;
+    top: 153px;
+    left: 365px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 55px;
+    height: 260px;
+}
+
+.item .icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2.5px solid #f7ffb1;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icon .level {
+    position: absolute;
+    font-size: 12px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    color: #000000;
+    background: #fff;
+    width: 30px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 900;
+}
+
 .head,
 .body,
 .hand,
@@ -348,13 +393,20 @@ footer {
     /* 右側の透明な余白を指定 */
 }
 
+.score_box {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    left: auto;
+}
+
 .score {
     color: gray;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .score_value {
-    font-size: 35px;
+    font-size: 30px;
     color: white;
 }
 
@@ -363,6 +415,15 @@ footer {
     margin-right: 8px;
 }
 
+.score_icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    width: 25px !important;
+    height: 25px !important;
+
+}
 
 
 .data {
