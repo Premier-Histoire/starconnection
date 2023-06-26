@@ -88,6 +88,7 @@ html, body, #app {
 
 .content {
     flex-grow: 1;
+    user-select: none
 }
 
 .text-center {
@@ -179,7 +180,17 @@ footer {
 }
 
 .search-form-001 input {
-    width: 300px;
+    width: 200px;
+    height: 45px;
+    padding: 5px 15px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+}
+
+.search-form-001 select {
+    width: 200px;
     height: 45px;
     padding: 5px 15px;
     border: none;
